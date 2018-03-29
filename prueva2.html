@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Esto es para que cambie de color o de forma segu el tamaño del escritorio  -->
+    <style type="text/css">
+        /*Escritorio */
+        @media(min-width: 1200px){
+            body { color:red}
+        }
+         /*Escritorio pequeño tablet */
+        @media(min-width: 768px) and (max-width: 979px){
+            body { color:green}
+        }
+          /* tablet o smartphone*/
+        @media(max-width: 767px){
+            body { color:blue}
+        }
+          /*movil */
+        @media(max-width: 480px){
+            body { color:greenyellow}
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="row-fluid">
+           <div class="col-xs-12  col-sm-8 col-md-9 col-lg-9">
+                <div class="well visible-lg"> 
+                <!--Para destacar un elemento -->              
+                    <h1 class="text-center">Escritorio</h1><!--Para centrar -->
+                </div>
+                <div class="well visible-md"> 
+                    <h1 class="text-center">tablet</h1>
+                </div>
+                 <div class="well visible-sm"> 
+                    <h1 class="text-center">mobil,tablet</h1>
+                </div>
+                <div class="well visible-xs"> 
+                    <h1 class="text-center">mobil</h1>
+                </div>
+                <!--<div class="well hidden-xs"> 
+                    <h1 class="text-center">mobil</h1>
+                </div>-->
+                <h1> Header</h1>
+                <p>
+                   Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+                </p>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
