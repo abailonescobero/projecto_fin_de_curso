@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<?xml-stylesheet
+type='text/xsl' href='./xslejemplo.xsl'?>
+
+<!-- Aqui empieza el contenido -->
+
+<Pag>
+  <Titulo lang="es">Pagina HTML de la que partimos</Titulo>
+  <PagDesc lang="es">Sera la que transformemos a XML</PagDesc>
+  <ClaseLista>
+    <Clase>
+      <Nombre>F2A</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+    <Clase>
+      <Nombre>F2B</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+    <Clase>
+      <Nombre>F2C</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+  	 <Clase>
+      <Nombre>F2D</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+    <Clase>
+      <Nombre>F2E</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+    <Clase>
+      <Nombre>F2F</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+  	 <Clase>
+      <Nombre>F2G</Nombre>
+      <Apellido>GradoMedio</Apellido>
+    </Clase>
+    </ClaseLista>
+</Pag>
